@@ -75,13 +75,12 @@ nav a:nth-child(5):hover~.animation{
 	left: 943px;
 }
 
-h1 {
-	color: #08D9D6;
-	margin-top: 45px;
 
-}
 
-li::marker {
-	color: white;
-	font-size: 50px;
+.typed-js {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }

@@ -17,13 +17,24 @@
       </nav>
 
       <main>
-        <ul>
-            <li><h1>My Portfolio</h1></li>
-        </ul>
-        <h1 class="hero-title mb-4">I am Morgan Freeman</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+        <div class="typed-js">
+            <h1 id="type">I'm a <span class="auto-type"></span></h1>
+        </div>
+
       </main>
       <div id="preloader"></div>
       <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed('.auto-type', {
+          strings: ["Programmer", "Android Developer", "Web Developer", "Freelancer"],
+          typeSpeed: 200,
+          backSpeed: 200,
+          looped: true
+        });
+      </script>
 </body>
 </html>
