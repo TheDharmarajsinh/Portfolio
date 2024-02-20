@@ -51,35 +51,35 @@ nav a:nth-child(1){
 }
 nav .start-home, a:nth-child(1):hover~.animation{
 	width: 100px;
-	left: 473px;
+	left: 30.7%;
 }
 nav a:nth-child(2){
 	width: 110px;
 }
 nav a:nth-child(2):hover~.animation{
 	width: 110px;
-	left: 573px;
+	left: 37.35%;
 }
 nav a:nth-child(3){
 	width: 100px;
 }
 nav a:nth-child(3):hover~.animation{
 	width: 100px;
-	left: 682px;
+	left: 44.5%;
 }
 nav a:nth-child(4){
 	width: 160px;
 }
 nav a:nth-child(4):hover~.animation{
 	width: 160px;
-	left: 782px;
+	left: 51%;
 }
 nav a:nth-child(5){
 	width: 120px;
 }
 nav a:nth-child(5):hover~.animation{
 	width: 120px;
-	left: 943px;
+	left: 61.45%;
 }
 
 
