@@ -443,4 +443,63 @@ section {
     transform: translateX(-50%) rotate(45deg);
 
 }
+
+
+
+
+
+.copyfield{
+    display: contents;
+    background-color: #212121;
+    border-radius: 5px;
+	width: 22%;
+	
+}
+
+#link{
+    width: 240px;
+    padding: 5px 5px;
+    border: 1px solid #212121;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    overflow-x: scroll;
+}
+#link::-webkit-scrollbar{
+    display: none;
+}
+
+#copy-btn{
+    color: #fff;
+    padding: 0 20px;
+    font-size: 18px;
+    cursor: pointer;
+	background: black;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+	text-align: center;
+	color: #fff;
+	padding: 25px 0;
+	background: #0062d3;
+  }
   
+  footer .copyright {
+	margin-bottom: 0.3rem;
+  }
+  
+  footer .credits {
+	margin-bottom: 0;
+  }
+  
+  footer .credits a {
+	color: #fff;
+  }
