@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+	color: white
+	;
+}
 body {
 	font-family: 'Open Sans', sans-serif;
 	background: #252A34;
@@ -81,12 +85,13 @@ nav a:nth-child(5):hover~.animation{
 	width: 100%;
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 }
 
 .type {
-	font-size: 60px;
+	font-size: 45px;
 }
 
 .auto-type {
@@ -94,7 +99,5 @@ nav a:nth-child(5):hover~.animation{
 }
 
 .name {
-	display: flex;
-	align-items:center;
-	justify-content: center;
+	font-size: 60px;
 }
