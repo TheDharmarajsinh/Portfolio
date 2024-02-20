@@ -404,7 +404,15 @@ section {
     width: 50%;
     animation-delay: 0.2s;
 }
-.skill-per.nodejs{
+.skill-per.php{
+    width: 5%;
+    animation-delay: 0.3s;
+}
+.skill-per.java{
+    width: 70%;
+    animation-delay: 0.3s;
+}
+.skill-per.kotlin{
     width: 5%;
     animation-delay: 0.3s;
 }
