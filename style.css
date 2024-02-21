@@ -68,10 +68,10 @@ nav a:nth-child(3):hover~.animation{
 	left: 44.5%;
 }
 nav a:nth-child(4){
-	width: 160px;
+	width: 110px;
 }
 nav a:nth-child(4):hover~.animation{
-	width: 160px;
+	width: 110px;
 	left: 51%;
 }
 nav a:nth-child(5){
@@ -500,16 +500,50 @@ footer {
 	color: #fff;
 	padding: 25px 0;
 	background: #00ADB5;
-  }
+}
   
   footer .copyright {
 	margin-bottom: 0.3rem;
-  }
+}
   
   footer .credits {
 	margin-bottom: 0;
-  }
+}
   
   footer .credits a {
 	color: #fff;
+}
+
+@media only screen and (max-width: 1080px) {
+	nav .start-home, a:nth-child(1):hover~.animation{
+		left: 24.9%;
+	}
+	nav a:nth-child(2){
+		width: 110px;
+	}
+	nav a:nth-child(2):hover~.animation{
+		width: 110px;
+		left: 34.2%;
+	}
+	nav a:nth-child(3){
+		width: 100px;
+	}
+	nav a:nth-child(3):hover~.animation{
+		width: 100px;
+		left: 44.4%;
+	}
+	nav a:nth-child(4){
+		width: 110px;
+	}
+	nav a:nth-child(4):hover~.animation{
+		width: 110px;
+		left: 53.6%;
+	}
+	nav a:nth-child(5){
+		width: 120px;
+	}
+	nav a:nth-child(5):hover~.animation{
+		width: 120px;
+		left: 63.75%;
+	}
   }
