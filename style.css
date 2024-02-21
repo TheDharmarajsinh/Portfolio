@@ -539,7 +539,7 @@ footer {
 	}
   }
 
-  @media only screen and (max-width: 439px) {
+  @media only screen and (max-width: 438px) {
 	nav .start-home, a:nth-child(1):hover~.animation{
 		left: 0%;
 		width: 18.35%;
