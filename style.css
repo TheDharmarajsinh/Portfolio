@@ -562,8 +562,8 @@ footer {
 		left: 57.2%;
 		width: 20.5%;
 	}
-
 	nav a:nth-child(5):hover~.animation{
-		left: 63.75%;
+		left: 77.5%;
+		width: 20.5%;
 	}
   }
