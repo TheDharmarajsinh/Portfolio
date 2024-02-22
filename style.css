@@ -578,8 +578,8 @@ footer {
 		width: 20.5%;
 	}
 	nav a:nth-child(5):hover~.animation{
-		left: 79.3%;
-		width: 20.5%;
+		left: 78.4%;
+		width: 21.4%;
 	}
   }
   @media only screen and (max-width: 433px) {
