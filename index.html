@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <body>
     <nav>
         <a href="#">Home</a>
@@ -21,6 +20,9 @@
           <h1 class="name">I am Dharmarajsinh Jadeja</h1>
           <h1 class="type"><span class="auto-type"></span></h1>
         </div>
+
+
+        <a id="button"></a>
 
        <!--About Section -->
     <section id="about" class="about">
@@ -229,9 +231,6 @@
   </footer><!-- End Of Footer -->
 
 
-    <a id="button"></a>
-
-
       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
       <script>
         var typed = new Typed('.auto-type', {
@@ -254,21 +253,6 @@
       }, 2000)
   }
 </script>
-<script>  var btn = $('#button');
-
-  $(window).scroll(function() {
-    if ($(window).scrollTop() > 300) {
-      btn.addClass('show');
-    } else {
-      btn.removeClass('show');
-    }
-  });
-  
-  btn.on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({scrollTop:0}, '300');
-  });
-  </script>
 
 
 </body>
