@@ -576,7 +576,6 @@ footer {
 		left: 78px;
 		top: 5px;
 	}
-  }
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -595,3 +594,4 @@ footer {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
+  }
