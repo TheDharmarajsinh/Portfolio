@@ -6,7 +6,6 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
 <body>
     <nav>
         <a href="#">Home</a>
@@ -23,7 +22,7 @@
           <h1 class="type"><span class="auto-type"></span></h1>
         </div>
 
-       <!-- ======= About Section ======= -->
+       <!--About Section -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
@@ -65,10 +64,10 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section><!-- End Of About Section -->
 
 
-    <!-- ======= Skills Section ======= -->
+    <!-- Skills Section -->
     <section id="skills" class="skills section-bg">
       <div class="container" data-aos="fade-up">
 
@@ -77,17 +76,7 @@
           <p>This are the skills which i know... Skills are regularly updated.</p>
         </div>
 
-
-
-
-
-
-
-
-
-
-        
-    <div class="Mycontain">
+          <div class="Mycontain">
       <div class="skill-box">
         <span class="title">C</span>
 
@@ -155,24 +144,10 @@
       </div>
   </div>
   </div>
+  </div>
+    </section><!-- End Of Skills Section -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
+    <!-- Resume Section -->
     <section id="resume" class="resume">
       <div class="container" data-aos="fade-up" style="margin-left: 8px;">
 
@@ -228,11 +203,7 @@
     <div class="resumedown" >You can get my Resume from here <a href="./assets/Resume/Resume.pdf" download='resume' class="download-btn">Download<i class="fa fa-download"></i>
     </div>
 
-      <!-- </main>
-      <div id="preloader"></div>
-      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
-
-  <!-- ======= Footer ======= -->
+  <!-- Footer -->
   <footer>
     <div class="container">
       <div class="row">
@@ -255,7 +226,11 @@
         </div>
       </div>
     </div>
-  </footer><!-- End  Footer -->
+  </footer><!-- End Of Footer -->
+
+
+    <a id="button"></a>
+
 
       <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
       <script>
@@ -279,5 +254,22 @@
       }, 2000)
   }
 </script>
+<script>  var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+  
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+  </script>
+
+
 </body>
 </html>
