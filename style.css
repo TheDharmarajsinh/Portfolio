@@ -513,21 +513,26 @@ footer {
   footer .credits a {
 	color: #fff;
 }
-/* @media only screen and (min-width: 1081px) {.gotopbtn{
-	position: fixed;
-	width: 50px;
-	height: 50px;
-	background: #00ADB5;
-	bottom: 40px;
-	right: 50px;
-  
-	text-decoration: none;
-	text-align: center;
-	line-height: 50px;
-	color: white;
-	font-size: 22px;
-  }
-} */
+@media only screen and (min-width: 760px) {
+	  .top {
+		--offset: 50px; 
+	  
+		position: sticky;
+		bottom: 20px;
+		left: 97%;      
+		margin-right: 10px; 
+		place-self: end;
+		margin-top: calc(100vh + var(--offset));
+	  
+		text-decoration: none;
+		padding: 10px;
+		font-family: sans-serif;
+		color: #fff;
+		background: #000;
+		border-radius: 100px;
+		white-space: nowrap;
+	  }
+}
 
 @media only screen and (max-width: 1080px) {
 	nav .start-home, a:nth-child(1):hover~.animation{
