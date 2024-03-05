@@ -180,10 +180,7 @@ section {
   .section-title p {
 	margin-bottom: 0;
   }
-  
-  /*--------------------------------------------------------------
-  # About
-  --------------------------------------------------------------*/
+  /* About */
   .about .content h3 {
 	font-weight: 700;
 	font-size: 26px;
@@ -601,7 +598,7 @@ footer {
 		left: 78px;
 		top: 5px;
 	}
-.row {
+.star {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
@@ -610,7 +607,7 @@ footer {
   margin-left: calc(-0.5 * var(--bs-gutter-x));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
 }
-.row > * {
+.star > * {
   box-sizing: border-box;
   flex-shrink: 0;
   width: 100%;
